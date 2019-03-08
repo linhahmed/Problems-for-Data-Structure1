@@ -1,0 +1,20 @@
+public class num2 
+{ 		
+	  public static BigInteger fib(int n) 
+	  {  
+        if (n == 0)
+        {	
+            return BigInteger.ZERO;
+        }
+        else if(n==1)
+        {
+        	  return BigInteger.ONE;
+        }
+        else
+        {
+        	  BigInteger fib1 =fib(n-1);
+        	  BigInteger fib2 =fib(n-2);
+        	  return fib1.add(fib2);
+        }
+    }
+}    
