@@ -1,20 +1,17 @@
-public class num2 
-{ 		
-	  public static BigInteger fib(int n) 
-	  {  
-        if (n == 0)
-        {	
-            return BigInteger.ZERO;
-        }
-        else if(n==1)
+public class number2 
+{   
+    public static BigInteger fib(int n) 
+    { 
+        BigInteger fib0,fib1,fib2;
+        fib0=BigInteger.ZERO;
+        fib1=BigInteger.ZERO;
+        fib2=BigInteger.ONE;
+        for(int i = 0; i <= n; i++)
         {
-        	  return BigInteger.ONE;
+            fib0 = fib1;
+            fib1 = fib2;
+            fib2 = fib0.add(fib1);
         }
-        else
-        {
-        	  BigInteger fib1 =fib(n-1);
-        	  BigInteger fib2 =fib(n-2);
-        	  return fib1.add(fib2);
-        }
-    }
+        return fib0; 
+    } 
 }    
