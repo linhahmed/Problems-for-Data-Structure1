@@ -13,7 +13,7 @@ What would you do to avoid a possible integer overflow?
 Move elements that equals to val to the end of the array and the rest of the
 elements to the start with preserving their relative order.
 Try to solve this problem in place (without using extra memory).
-**Example:
+* * Example:
 Input: [1,2,3,4,5,6,5, 5, 7, 7], val = 5
 Output: [1, 2, 3, 4, 6, 7, 7, 5, 5, 5]
 
