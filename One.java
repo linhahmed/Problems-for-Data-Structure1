@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.math.BigInteger;
 
-public class 1 
+public class One 
 {
     public static void Reverse(int[] arr)
     {
