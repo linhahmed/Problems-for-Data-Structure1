@@ -1,4 +1,4 @@
-public class number2 
+public class Two 
 {   
     public static BigInteger fib(int n) 
     { 
